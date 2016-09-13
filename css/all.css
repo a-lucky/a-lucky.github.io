@@ -2,6 +2,7 @@ html, body, div[class^="col-sm-"]{
     height: 100%;
     text-align: center;
     color: #ddd;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.4);
 }
 
 div[class^="col-sm-"]{
@@ -53,8 +54,8 @@ h2{
 }
 
 .portrait:hover{
+    transform: rotate(720deg);
     transition: 1s;
-    transform: rotate(360deg);
 }
 
 .link_image{
@@ -62,10 +63,12 @@ h2{
     margin-left: 20px;
     margin-right: 20px;
     transform: rotate(0deg);
+    transition: 1s;
 }
 
 .link_image:hover{
-    transform: rotate(3600deg); 
+    transform: rotate(360deg);
+    transition: 1s;
 }
 
 hr{
