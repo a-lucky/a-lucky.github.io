@@ -45,6 +45,13 @@ h2{
     height: 150px;
     width: auto;
     border-radius: 100%;
+    transform: rotate(0deg); 
+    transition: 1s;
+}
+
+.portrait:hover{
+    transition: 1s;
+    transform: rotate(360deg);
 }
 
 .link_image{
