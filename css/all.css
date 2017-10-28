@@ -3,6 +3,9 @@ html, body, div[class^="col-sm-"]{
     text-align: center;
     color: #ddd;
     text-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+    font-family: 'Titillium Web', sans-serif;
+    font-feature-settings : "palt", "liga", "clig";
+    font-kerning: auto;
 }
 
 div[class^="col-sm-"]{
@@ -49,7 +52,7 @@ h2{
     height: 150px;
     width: auto;
     border-radius: 100%;
-    transform: rotate(0deg); 
+    transform: rotate(0deg);
     transition: 1s;
 }
 
